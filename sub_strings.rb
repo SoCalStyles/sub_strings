@@ -19,6 +19,3 @@ def sub_strings(string, dictionary_array)
 end
 
 put sub_strings("Howdy partner, sit down! How's it going?", dictionary)
-
-
-
