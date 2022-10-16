@@ -1,4 +1,5 @@
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+
 def sub_strings(string, dictionary_array)
   answer_array = []
   answer_hash = {}
@@ -16,3 +17,8 @@ def sub_strings(string, dictionary_array)
     a
   end
 end
+
+put sub_strings("Howdy partner, sit down! How's it going?", dictionary)
+
+
+
